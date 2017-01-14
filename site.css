@@ -25,6 +25,10 @@ html, body, .container-fluid{
     background-color: #f4511e;
     overflow: auto;
 }
+
+#profile-pic{
+    padding: 10px 10px 10px 10px;
+}
 .col-sm-2{
     background-color: #f4511e;
     margin: 0;
@@ -39,7 +43,7 @@ html, body, .container-fluid{
 }
 
 #inner-row1{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .nav li a{
     text-align: center;
@@ -83,8 +87,24 @@ hr{
       font-weight: 400;
       font-style: italic;
       margin: 20px 0;
+      padding: 5px 5px 5px 5px;
 }
 
 .item span {
       font-style: normal;
+}
+
+#logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.icons{
+    font-size:42px;
+    color: white;
+}
+
+#icons-panel{
+    padding: 10px 10px 10px 15px;
 }
