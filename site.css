@@ -12,6 +12,7 @@ html, body, .container-fluid{
     height: 100%;
     overflow: auto;
 }
+
 #main-content{
    margin: 0;
    padding: 0;
@@ -29,6 +30,7 @@ html, body, .container-fluid{
 #profile-pic{
     padding: 10px 10px 10px 10px;
 }
+
 .col-sm-2{
     background-color: #f4511e;
     margin: 0;
