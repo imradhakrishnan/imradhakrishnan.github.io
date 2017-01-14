@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2017, 7:35:30 AM
+    Author     : vrk19
+*/
+
+html, body, .container-fluid{
+    height: 100%;
+    overflow: auto;
+}
+#main-content{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+#main-row{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #f4511e;
+    overflow: auto;
+}
+.col-sm-2{
+    background-color: #f4511e;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.col-sm-10{
+    background-color: white;
+    min-height: 100%;
+    height: auto;
+}
+
+#inner-row1{
+    margin-top: 2%;
+}
+.nav li a{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.nav-pills li.active a, .nav li a:hover{
+    color: #f4511e;
+    background-color: white;
+}
+.active{
+    background-color: white;
+}
+
+hr{
+    border-top: 2px solid #eee;
+}
+
+#sub-text{
+    color: gray;
+}
+
+.carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+}
+
+.carousel-indicators li {
+      border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+      background-color: #f4511e;
+}
+
+.item h4 {
+      font-size: 17px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 20px 0;
+}
+
+.item span {
+      font-style: normal;
+}

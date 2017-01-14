@@ -1,7 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<head>
-</head>
-<body>
-<p> Hi, I'm Radha Krishnan ! </p>
-</body>
+    <head>
+        <title>Welcome | RK</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="site.css">
+    </head>
+    <body>
+        <div id="main-content" class="container-fluid">
+            <div id="main-row" class="row">
+                <div class="col-sm-2">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="index.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </div>   
+                <div class="col-sm-10">
+                    <div id="inner-row1" class="row">
+                        <div class="col-sm-7">
+                            <div class="jumbotron">
+                                <h2>Radha Krishnan Vinayagam</h2>
+                                I am a motivated software engineer with keen interest in product development. 
+                                Latest technologies and new applications never cease to fascinate me. 
+                                From my school days through university, I was an active international FIDE (World Chess Federation) rated chess player. 
+                                This experience has instilled in me the admiration for human intelligence.
+                                When I reached my college education, it naturally allured me towards Computer Science (machine intelligence).
+                                With solid foundation in algorithms and programming, I always look for opportunities
+                                to find innovative technical solutions. 
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="Octocat.png" height="350" width="420"/>
+                        </div>
+                    </div>
+                    <div id="inner-row2" class="row">
+                        <center><h2>WHAT OTHERS SAY</h2></center>
+                        <div id="recommendations" class="Carousel slide text-center" data-ride="carousel">
+                            <!-- indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#recommendations" data-slide-to="0" class="active" onclick="$('#recommendations').carousel(0)"></li>
+                                <li data-target="#recommendations" data-slide-to="1" onclick="$('#recommendations').carousel(1)"></li>
+                                <li data-target="#recommendations" data-slide-to="2" onclick="$('#recommendations').carousel(2)"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                  <h4>"Radha is a very proactive and talented professional. During his participation in the internship program, Radha went above and beyond the program expectations, delivering a lot of value and ideas for the product to be better. 
+                                      It was a great experience working with him."
+                                      <br><br><span style="font-style:normal;">Jose Manuel Silva, Sales Engineer, Splunk</span>
+                                  </h4>
+                                </div>
+                                <div class="item">
+                                  <h4>"Radha is very smart engineer that was very engaged in his internship. He was very collaborative with our team and other teams, and produce great work in developing the D3 visualizations.
+                                      He is open to learn and to accept new challenges. We will be happy to have him back."
+                                      <br><br><span style="font-style:normal;">Christophe Touret, Software Engineer, MicroStrategy</span>
+                                  </h4>
+                                </div>
+                                <div class="item">
+                                  <h4>"Radha Krishnan worked in my team at Ford. His knowledge levels are extremely good. Really amazed with his technical skillset. He is a great asset to our team. He learnt BPM real quick and started delivering efficiently within less span. His knowledge in Mobile Apps is really appreciable. 
+                                      He organized team events efficiently. I recommend him as a great asset to any team. All the best Radha."
+                                      <br><br><span style="font-style:normal;">Kathyayani Katari, IBM BPM Lead Developer and Project Lead, Ford Motor Company</span>
+                                  </h4>
+                                </div>
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#recommendations" role="button" data-slide="prev" onclick="$('#recommendations').carousel('prev')">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                    <a class="right carousel-control" href="#recommendations" role="button" data-slide="next" onclick="$('#recommendations').carousel('prev')">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
