@@ -12,6 +12,12 @@ html, body, .container-fluid{
     height: 100%;
     overflow: auto;
 }
+figcaption {
+    font-size: 12px;
+    height: 30px;
+    width: 400px;
+    display: block;
+}
 
 #main-content{
    margin: 0;
